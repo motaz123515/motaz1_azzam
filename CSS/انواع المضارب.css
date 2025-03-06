@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+header {
+  background-color: #39b916;
+  color: #ffffff;
+  padding: 20px 0;
+}
+header h1 {
+  margin: 0;
+}
+nav {
+  margin: 40px 0;
+}
+a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+a:hover {
+  color: #39b916;
+}
+.hero {
+  background-color: #39b916;
+  color: #ffffff;
+  padding: 100px 20px;
+}
+.hero h2 {
+  margin: 0;
+  font-size: 2.5em;
+}
+.hero p {
+  font-size: 1.2em;
+}
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 20px;
+  background-color: #39b916;
+}
+.feature {
+  width: 30%;
+}
+.feature h3 {
+  font-size: 1.5em;
+  color: #ffffff;
+}
+
+.feature p {
+  color: #39b916;
+  }
+
+  img {
+    border-radius: 50px;
+  }
+
+  .container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    text-align: center;
+  }
+  
+  .container .btn:hover {
+    background-color: black;
+    color: white;
+  }
+
+  img{
+    
+  }
+  
+  div {
+    border: 5px solid #39b916;
+    padding: 10px;
+  }
+
+  img {
+    float: middle;
+  }
